@@ -1,35 +1,25 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node dependencies
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Env files (ignore all .env variants)
+.env
+.env.*
+!.env.example   # optional: agar tu koi template .env file dena chahta hai
 
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
+# Build and output
 /build
+/.next
+/out
 
-# misc
-.DS_Store
-*.pem
-
-# debug
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Misc
+.DS_Store
+*.pem
 
-# vercel
+# Vercel and others
 .vercel
-/.env.local
+.pnp.*
