@@ -125,10 +125,10 @@ export const PROJECTS = [
   },
   {
     name: "Tesla",
-    image: "/projects/tesla.webp",
+    image: "/projects/movie.png",
     blurImage: "/projects/blur/tesla-blur.webp",
     description: "A Tesla React Native App 🏎️",
-    url: "",
+    url: "https://react-movie-mu-ten.vercel.app/react-movie-app",
     gradient: ["#142D46", "#2E4964"],
     tech: ["react"],
   },
