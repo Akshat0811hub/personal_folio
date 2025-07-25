@@ -128,7 +128,7 @@ export const PROJECTS = [
     image: "/projects/tesla.webp",
     blurImage: "/projects/blur/tesla-blur.webp",
     description: "A Tesla React Native App 🏎️",
-    url: "https://github.com/shubh73/tesla",
+    url: "",
     gradient: ["#142D46", "#2E4964"],
     tech: ["react"],
   },
