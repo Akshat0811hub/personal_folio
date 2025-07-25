@@ -99,7 +99,6 @@ export const PROJECTS = [
   {
     name: "Nuloyal",
     image: "/projects/nuloyal1.png",
-    blurImage: "/projects/blur/airbnb-blur.webp",
     description: "Nuloyal UI clone using NextJS + Tailwind CSS 🛏️",
     url: "https://nuloyal.vercel.app/",
     gradient: ["#F14658", "#DC2537"],
@@ -108,7 +107,6 @@ export const PROJECTS = [
   {
     name: "iphone 15",
     image: "/projects/apple1.png",
-    blurImage: "/projects/blur/medium-blur.webp",
     description: "iphone 15 clone using NextJS + Tailwind CSS ✍🏻",
     url: "https://apple-website-pi-blond.vercel.app/",
     gradient: ["#FFA62E", "#EA4D2C"],
@@ -117,17 +115,15 @@ export const PROJECTS = [
   {
     name: "Inshorts",
     image: "/projects/inshorts.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
     description:
       "Conversational Voice Controlled React News Application using Alan AI 🎙",
     gradient: ["#000066", "#6699FF"],
     tech: ["react", "chakra-ui", "alan"],
   },
   {
-    name: "Tesla",
+    name: "hMovies",
     image: "/projects/movie.png",
-    blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
+    description: "hMovies is a React js App",
     url: "https://react-movie-mu-ten.vercel.app/react-movie-app",
     gradient: ["#142D46", "#2E4964"],
     tech: ["react"],
